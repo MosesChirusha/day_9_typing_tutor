@@ -26,6 +26,10 @@ No frameworks. No backend.
 
 ---
 
+## Demo
+![Typing Tutor Demo](https://moseschirusha.github.io/day_9_typing_tutor)
+or [Read the full article](https://moseschirusha.medium.com/i-watched-students-struggle-with-a-keyboard-so-i-built-a-typing-tutor-in-one-day-725ec8016014)
+
 ## Project Structure
 ```bash
 day_9_typing_tutor/
@@ -38,6 +42,7 @@ day_9_typing_tutor/
 
 ## Running Locally
 ```bash
+git clone https://github.com/moseschirusha/day_9_typing_tutor.git
 Copy code
 Open index.html in any modern browser
 
