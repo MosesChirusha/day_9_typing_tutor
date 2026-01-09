@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Tutor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Typing Tutor</h1>
+
+  <div id="textDisplay" class="text-display"></div>
+
+  <textarea id="input" placeholder="Start typing here..."></textarea>
+
+  <div class="stats">
+    <div>WPM: <span id="wpm">0</span></div>
+    <div>Accuracy: <span id="accuracy">100%</span></div>
+    <div>Time: <span id="time">0</span>s</div>
+  </div>
+
+  <button onclick="resetTest()">Reset</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
